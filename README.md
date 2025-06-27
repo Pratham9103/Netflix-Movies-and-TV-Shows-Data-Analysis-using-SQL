@@ -12,8 +12,6 @@ Explore and categorize content based on specific criteria and keywords.
 Schema
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
-
-
 (
     show_id      VARCHAR(5),
     type         VARCHAR(10),
@@ -28,7 +26,9 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+
 Business Problems and Solutions
+
 1. Count the Number of Movies vs TV Shows
 SELECT 
     type,
